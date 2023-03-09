@@ -4,9 +4,9 @@ let general=
     id:1,
     question:'What is the largest planet in our solar system?',
     options:[
-    {text:'Jupiter', correct:true, id:1},
-    {text:'Saturn', correct:false, id:2},
-    {text:'Venus' , correct:false, id:3},
+      {text:'Saturn', correct:false, id:2},
+      {text:'Venus' , correct:false, id:3},
+      {text:'Jupiter', correct:true, id:1},
     {text:'Neptune' , correct:false, id:4}
     ]
   },
@@ -14,19 +14,19 @@ let general=
     id:2,
     question:'What is the capital city of Canada?',
     options:[
-    {text:'Ottawa', correct:true, id:1},
-    {text:'Toronto', correct:false, id:2},
-    {text:' Vancouver', correct:false, id:3},
-    {text:'Montreal', correct:false, id:4}
+      {text:'Toronto', correct:false, id:2},
+      {text:' Vancouver', correct:false, id:3},
+      {text:'Montreal', correct:false, id:4},
+      {text:'Ottawa', correct:true, id:1}
     ]
   },
   {
     id:3,
     question:'Who wrote the novel "Prcorrecte and Prejudice"?',
     options:[
-    {text:'Jane Austen', correct:true, id:1},
-    {text:'Charles Dickensv', correct:false, id:2},
-    {text:' Mark Twain', correct:false, id:3},
+      {text:'Charles Dickensv', correct:false, id:2},
+      {text:'Jane Austen', correct:true, id:1},
+      {text:' Mark Twain', correct:false, id:3},
     {text:' Emily Bronte', correct:false, id:4}
     ]
     
@@ -35,10 +35,10 @@ let general=
     id:4,
     question:'Which planet in our solar system is the hottest?',
     options:[
-        {text:'Venus', correct:true, id:1},
+      {text:'Jupiter', correct:false, id:4},
+      {text:'Venus', correct:true, id:1},
         {text:'Mercury' , correct:false, id:2},
-        {text:'Mars' , correct:false, id:3},
-        {text:'Jupiter', correct:false, id:4}
+        {text:'Mars' , correct:false, id:3}
     ]
     
   },
@@ -46,9 +46,9 @@ let general=
     id:5,
     question:'Which country is home to the Great Barrier Reef?',
     options:[
-        {text:'Australia' , correct:true, id:1},
-        {text:'Brazil' , correct:false, id:2},
-        {text:'Canada' , correct:false, id:3},
+      {text:'Brazil' , correct:false, id:2},
+      {text:'Canada' , correct:false, id:3},
+      {text:'Australia' , correct:true, id:1},
         {text:'China', correct:false, id:4}
     ]
   
@@ -57,9 +57,9 @@ let general=
     id:6,
     question:'Who was the first person to walk on the moon?',
     options:[
-      {text:'Neil Armstrong', correct:true, id:1},
-      {text:'Buzz Aldrin', correct:false, id:2}, 
       {text:'Alan Shepard', correct:false, id:3},
+      {text:'Buzz Aldrin', correct:false, id:2}, 
+      {text:'Neil Armstrong', correct:true, id:1},
       {text:'John Glenn', correct:false, id:4}
     ]
     
@@ -68,10 +68,10 @@ let general=
     id:7,
     question:'What is the smallest country in the world?',
     options:[
-       {text:'Vatican City', correct:true, id:1},
       {text:'Monaco', correct:false, id:2},
-      {text:'San Marino' , correct:false, id:3},
-      {text:'Liechtenstein', correct:false, id:4}
+      {text:'Vatican City', correct:true, id:1},
+      {text:'Liechtenstein', correct:false, id:4},
+      {text:'San Marino' , correct:false, id:3}
     ]
   },
   {
@@ -98,9 +98,9 @@ let general=
     id:10,
     question:'In what year dcorrect the first iPhone launch?',
     options:[
-      {text:'false, id:2007', correct:true, id:1},
       {text:'false, id:2005', correct:false, id:2},
       {text:'false, id:2009', correct:false, id:3},
+      {text:'false, id:2007', correct:true, id:1},
       {text:'false, id:20true', correct:false, id:4}
     ]
   },
