@@ -98,10 +98,10 @@ let general=
     id:10,
     question:'In what year dcorrect the first iPhone launch?',
     options:[
-      {text:'false, id:2005', correct:false, id:2},
-      {text:'false, id:2009', correct:false, id:3},
-      {text:'false, id:2007', correct:true, id:1},
-      {text:'false, id:20true', correct:false, id:4}
+      {text:'2005', correct:false, id:2},
+      {text:'2009', correct:false, id:3},
+      {text:'2007', correct:true, id:1},
+      {text:' 2006', correct:false, id:4}
     ]
   },
   {
