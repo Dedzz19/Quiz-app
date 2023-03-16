@@ -76,6 +76,7 @@ export default function Quiz() {
     setGeneralButtonColor('bg-blue-400')
     setSportsButtonColor('zinc')
     setQuizType('general')
+    setAttemptedQuestions(0)
   }
  
   return (
