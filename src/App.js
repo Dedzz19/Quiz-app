@@ -8,7 +8,7 @@ import './styles.css'
 export default function Quiz() {
   const[display, setDisplay]=useState('block')
   const[displayGame, setDisplayGame]=useState('hidden')
-  const[quizType, setQuizType]=useState('')
+  const[quizType, setQuizType]=useState('general')
   const[result, setResult]=useState('hidden')
   const[sportsButtonColor, setSportsButtonColor]=useState('zinc')
   const[politicsButtonColor, setPoliticsButtonColor]=useState('zinc')
@@ -49,7 +49,7 @@ export default function Quiz() {
   }
   if(id.valueOf()==1){
     setScore(score+1)
-  }else if(id.valueOf()==0){
+  }else if(id===0){
     setAttemptedQuestions(attemptedQuestions+1)
   }
   setId(0)
