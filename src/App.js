@@ -49,10 +49,11 @@ export default function Quiz() {
   }
   if(id.valueOf()==1){
     setScore(score+1)
-  }else if(id===0){
+  }else if(id!=0){
     setAttemptedQuestions(attemptedQuestions+1)
   }
   setId(0)
+  console.log(attemptedQuestions)
  }
 
 
